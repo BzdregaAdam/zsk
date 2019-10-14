@@ -7,10 +7,13 @@
   <body>
   <?php
   if(!empty($_GET['country'])) {
-    echo "ok";
+    $country = $_GET['country'];
+    if(strlen($country)>10) {
+      echo $country;
+    }
 
   }else{
-
+    echo ">10";
   ?>
 <form method="get">
   <input type="text" name="country" placeholder="Podaj kraj">

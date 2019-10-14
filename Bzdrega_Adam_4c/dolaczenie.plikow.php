@@ -5,7 +5,7 @@
     <title></title>
   </head>
   <body>
-
+    
     Plik glówny<hr>
     <?php
 //    include('./plik1.php');
